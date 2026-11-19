@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Takies</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.65; color: #1b1b1f; background: #ffffff; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 22px 64px; }
+  header { border-bottom: 1px solid #e6e6ea; padding-bottom: 22px; margin-bottom: 32px; }
+  h1 { font-size: 2rem; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .tag { margin: 0; color: #66666e; }
+  h2 { font-size: 1.15rem; margin: 34px 0 8px; }
+  p, li { color: #33333a; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: #0b57d0; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid #e6e6ea; font-size: 0.85rem; color: #66666e; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #131316; color: #e8e8ea; }
+    p, li { color: #c3c3ca; }
+    header, footer { border-color: #2b2b31; }
+    .tag, footer { color: #9a9aa3; }
+    a { color: #8ab4f8; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Takies</h1>
+    <p class="tag">A private publishing tool for the Mysterious Talkies YouTube channel.</p>
+  </header>
+
+  <main>
+    <p>Takies is a small automation tool built and used by one person: the owner of the YouTube channel <strong>Mysterious Talkies</strong>. It prepares short videos about how ancient humans lived, and publishes them to that same channel.</p>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>Takes a written script from the owner's own content list.</li>
+      <li>Turns the script into narration with a text-to-speech voice, and adds free stock imagery and captions.</li>
+      <li>Renders a vertical short video on a schedule.</li>
+      <li>Uploads the finished video to the owner's own YouTube channel using the YouTube Data API v3.</li>
+    </ul>
+
+    <h2>Who uses it</h2>
+    <p>Only the owner of the channel. Takies has no sign-up, no accounts, no public interface and no other users. It never asks any other person for a Google account.</p>
+
+    <h2>What it accesses</h2>
+    <p>With the owner's permission, Takies can upload videos to the owner's own channel. It does not read other channels, comments, subscribers, messages, or any other Google user data.</p>
+
+    <h2>Privacy</h2>
+    <p>How the little data involved is handled is described in the <a href="privacy.html">privacy policy</a>.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this tool: <a href="mailto:thesleepportal1@gmail.com">thesleepportal1@gmail.com</a></p>
+  </main>
+
+  <footer>
+    Takies &middot; Last updated 19 November 2026
+  </footer>
+</div>
+</body>
+</html>
